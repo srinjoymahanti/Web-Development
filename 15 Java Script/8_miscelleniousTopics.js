@@ -10,3 +10,8 @@
 // console.log("hello2");
 
 
+// console.log("Hi there");
+// setTimeout(()=>{
+//     console.log("college");
+// },4000);
+// console.log("welcome to");

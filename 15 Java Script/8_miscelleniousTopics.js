@@ -15,3 +15,16 @@
 //     console.log("college");
 // },4000);
 // console.log("welcome to");
+
+
+// let id1=setInterval(()=>{
+//     console.log("Hello");
+// },2000);
+// let id2=setInterval(()=>{
+//     console.log("Cello");
+// },2000);
+// clearInterval(id);
+
+
+const square=(n)=>(n*n);
+console.log(square(4));

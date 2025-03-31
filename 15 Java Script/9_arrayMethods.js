@@ -45,3 +45,8 @@
 // console.log(even);
 
 
+// let statement=[2,4].every((el)=>(el%2 == 0));
+// console.log(statement);
+
+
+

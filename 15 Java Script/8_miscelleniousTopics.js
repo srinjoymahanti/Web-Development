@@ -26,5 +26,14 @@
 // clearInterval(id);
 
 
-const square=(n)=>(n*n);
-console.log(square(4));
+// const square=(n)=>(n*n);
+// console.log(square(4));
+
+
+// let id=setInterval(()=>{
+//     console.log("Hello world");
+// },2000);
+// setTimeout(()=>{
+//     clearInterval(id);
+//     console.log("function is cleared");
+// },10000);

@@ -49,4 +49,19 @@
 // console.log(statement);
 
 
+// let nums=[1,2,3,4];
+// let finalVal=nums.reduce((res,el)=>{
+//     console.log(res);
+//     return res+el;
+// });
+// console.log(finalVal);
 
+
+// let arr=[1,9,2,7,6,3,5,11,4];
+// max=-1;
+// let result=arr.reduce((max,el)=>{
+//     if(el>max){
+//         return el;
+//     }else return max;
+// });
+// console.log(result);

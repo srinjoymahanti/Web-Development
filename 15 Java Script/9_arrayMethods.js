@@ -115,10 +115,10 @@
 // console.log(others)
 
 
-const students={
-    name:"arya",
-    age:21,
-    city:"kolkata",
-    marks:94,
-};
-let{name:nam,city:place}=students;
+// const students={
+//     name:"arya",
+//     age:21,
+//     city:"kolkata",
+//     marks:94,
+// };
+// let{name:nam,city:place,age:umar}=students;

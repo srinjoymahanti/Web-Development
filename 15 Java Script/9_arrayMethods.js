@@ -65,3 +65,20 @@
 //     }else return max;
 // });
 // console.log(result);
+
+// let nums=[2,,4,6,8,10,1];
+// let ans=nums.every((el)=>el%2 == 0);
+// console.log(ans);
+
+// let arr=[9,2,7,6,3,5,11,4];
+// let result=arr.reduce((min,el)=>{
+//     if(min>el){
+//         return el; 
+//     }else return min;
+// });
+// console.log(result);
+
+
+let arr=[1,2,9,3,4,7,6,5,11];
+let minimum=Math.min(...arr);//takes every elements from array
+console.log(minimum);

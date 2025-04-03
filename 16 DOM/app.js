@@ -21,3 +21,12 @@
 // console.dir(document.querySelector(".oldImg"));//select first element with class= oldImg
 // console.dir(document.querySelector("div a"));//select first div with first a tag
 // console.dir(document.querySelectorAll("p"));//select all p elements
+
+
+// console.log(document.querySelector("p").innerText);//shows the visible text contained in a node
+// console.log(document.querySelector("p").textContent);//shows all full text,also hiddens
+// console.log(document.querySelector("p").innerHTML);//shows the full markup code
+
+// let para=document.querySelector("p");
+// // para.innerText="I am Peter Parker";
+// para.innerHTML=`<b> ${para.innerText} </b>`;

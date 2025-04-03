@@ -8,9 +8,16 @@
 // console.log(document.getElementById("mainImg").src);
 
 
-// console.log(document.getElementsByClassName("oldImages"));
-// let smallImages=document.getElementsByClassName("oldImages");
+// console.log(document.getElementsByClassName("oldImg"));
+// let smallImages=document.getElementsByClassName("oldImg");
 // for(let i=0;i<smallImages.length;i++){
 //     smallImages[i].src="Assets/Spider-Man.png";
 //     console.log(`value of image no${i} is changed`);
 // };
+
+
+// console.dir(document.querySelector("p"));//seelect first p element
+// console.dir(document.querySelector("#description"));//select first element with id= description
+// console.dir(document.querySelector(".oldImg"));//select first element with class= oldImg
+// console.dir(document.querySelector("div a"));//select first div with first a tag
+// console.dir(document.querySelectorAll("p"));//select all p elements

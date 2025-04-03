@@ -19,3 +19,11 @@
     height: 25rem;
     margin: 5px;
 }
+
+.green{
+    color: rgb(8, 232, 8);
+}
+
+.wavy{
+    text-decoration: underline wavy black;
+}

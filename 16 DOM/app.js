@@ -44,3 +44,15 @@
 // haeding.style.backgroundColor="purple";
 
 
+// let heading=document.querySelector("h1");
+// // heading.classList.add("green");
+// // heading.classList.add("wavy");
+// // heading.classList.remove("green");
+// // console.log(heading.classList.contains("green"));//check if the classexists or not
+// // console.log(heading.classList.contains("wavy"));
+// console.log(heading.classList);
+// console.log(heading.classList.toggle("green"));//add or remove a certain class
+// console.log(heading.classList);
+
+
+

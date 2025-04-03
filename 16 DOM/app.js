@@ -39,3 +39,8 @@
 // img.setAttribute("src","Assets/Amazing-spiderman.jpg");
 
 
+// let haeding=document.querySelector("h1");
+// haeding.style.color="red";
+// haeding.style.backgroundColor="purple";
+
+

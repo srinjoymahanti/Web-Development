@@ -30,3 +30,12 @@
 // let para=document.querySelector("p");
 // // para.innerText="I am Peter Parker";
 // para.innerHTML=`<b> ${para.innerText} </b>`;
+
+
+// let img=document.querySelector("img");
+// console.log(img.getAttribute("id"));
+// img.setAttribute("id","spiderImg");
+// console.log(img.getAttribute("id"));
+// img.setAttribute("src","Assets/Amazing-spiderman.jpg");
+
+

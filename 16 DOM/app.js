@@ -77,3 +77,13 @@
 // pubInfo.append("Hello there")//insert element or string at the end of the node
 // pubInfo.prepend("Hello World");//insert element or string at the beginning of the node 
 
+
+// let btn=document.createElement("button");
+// btn.innerHTML="click me";
+// let para=document.querySelector("p");
+// para.insertAdjacentElement("beforebegin",btn);//add before the beginning of the node
+// para.insertAdjacentElement("afterbegin",btn);//add at the beginning of the node
+// para.insertAdjacentElement("beforeend",btn);//add at the end of the node
+// para.insertAdjacentElement("afterend",btn);//add after the end of the node
+
+

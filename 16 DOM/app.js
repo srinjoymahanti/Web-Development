@@ -69,4 +69,11 @@
 // image.nextElementSibling.style.color="red";
 
 
+// let btn=document.createElement("button");
+// console.dir(btn);
+// btn.innerText="click me";
+// let pubInfo=document.querySelector(".pubInfo");
+// pubInfo.appendChild(btn);//add a child node to the end of a parent node
+// pubInfo.append("Hello there")//insert element or string at the end of the node
+// pubInfo.prepend("Hello World");//insert element or string at the beginning of the node 
 

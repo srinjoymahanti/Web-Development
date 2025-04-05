@@ -87,3 +87,5 @@
 // para.insertAdjacentElement("afterend",btn);//add after the end of the node
 
 
+// let para=document.querySelector("p");
+// para.remove();

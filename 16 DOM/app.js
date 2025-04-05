@@ -89,3 +89,25 @@
 
 // let para=document.querySelector("p");
 // para.remove();
+
+
+// let para1=document.createElement("p");
+// para1.innerText="Hey I am Red";
+// para1.style.color="red";
+// document.querySelector("body").append(para1);
+
+// let header3=document.createElement("h3");
+// header3.innerText="I am Blue h3";
+// header3.style.color="blue";
+// document.querySelector("body").append(header3);
+
+// let box=document.createElement("div");
+// box.style.backgroundColor="pink";
+// box.style.border="2px solid black";
+// let header1=document.createElement("h1");
+// header1.innerText="I am in a div";
+// let para2=document.createElement("p");
+// para2.innerText="ME Too";
+// box.append(header1);
+// box.append(para2);
+// document.querySelector("body").append(box);

@@ -11,3 +11,15 @@
 // };
 
 
+// let btns=document.querySelectorAll("button");
+// for(btn of btns){
+//     // btn.addEventListener("click",sayHello);
+//     btn.addEventListener("dblclick",sayWorld);
+// }
+// function sayHello(){
+//     alert("hello");
+// }
+// function sayWorld(){
+//     alert("world");
+// };
+

@@ -68,3 +68,16 @@
 // });
 
 
+// let form=document.querySelector("form");
+// form.addEventListener("submit",function(event){
+//     event.preventDefault();
+
+//     // let userName=document.querySelector("#username");
+//     // let passWord=document.querySelector("#password");
+
+//     let userName=this.elements[0];
+//     let passWord=this.elements[1];
+//     console.log(userName.value);
+//     console.log(passWord.value);
+
+// });

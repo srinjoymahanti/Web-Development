@@ -96,3 +96,12 @@
 //     console.log("Input changed");
 //     console.log(`Input value is:${this.value}`);
 // })
+
+
+// let inp=document.querySelector("#text");
+// let para=document.querySelector("p");
+// inp.addEventListener("change",function(){
+//     console.log(inp.value);
+//     para.innerText=inp.value;
+// });
+

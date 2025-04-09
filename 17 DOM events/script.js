@@ -81,3 +81,18 @@
 //     console.log(passWord.value);
 
 // });
+
+
+let form=document.querySelector("form");
+form.addEventListener("submit",function(event){
+    event.preventDefault();
+});
+let user=document.querySelector("#username");
+user.addEventListener("change",function(){
+    console.log("Changed event");
+    console.log(`Changed value is:${this.value}`);
+});
+user.addEventListener("input",function(){
+    console.log("Input changed");
+    console.log(`Input value is:${this.value}`);
+})

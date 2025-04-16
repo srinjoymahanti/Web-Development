@@ -11,14 +11,31 @@
 // console.log("Done!");
 
 
-function one(){
-    return 1;
-};
-function two(){
-    return one() + one();
-};
-function three(){
-    let ans=two() + one();
-    console.log(ans);
-};
-three();
+// function one(){
+//     return 1;
+// };
+// function two(){
+//     return one() + one();
+// };
+// function three(){
+//     let ans=two() + one();
+//     console.log(ans);
+// };
+// three();
+
+
+// let h1=document.querySelector("h1");
+// function colorChange(color,delay,nextColor){//nextColor is callback function
+//     setTimeout(()=>{
+//         h1.style.color=color;
+//         if(nextColor) nextColor();
+//     },delay);
+// };
+// //callback nesting
+// colorChange("red",1000,()=>{
+//     colorChange("orange",1000,()=>{
+//         colorChange("green",1000,()=>{
+//             colorChange("blue",1000);
+//         });
+//     });
+// });

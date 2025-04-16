@@ -1,11 +1,24 @@
-function hello(){
-    console.log("inside hello function");
-    console.log("hello");
+// function hello(){
+//     console.log("inside hello function");
+//     console.log("hello");
+// };
+// function demo(){
+//     console.log("Calling hello() function");
+//     hello();
+// };
+// console.log("Calling demo() function");
+// demo();
+// console.log("Done!");
+
+
+function one(){
+    return 1;
 };
-function demo(){
-    console.log("Calling hello() function");
-    hello();
+function two(){
+    return one() + one();
 };
-console.log("Calling demo() function");
-demo();
-console.log("Done!");
+function three(){
+    let ans=two() + one();
+    console.log(ans);
+};
+three();

@@ -51,4 +51,10 @@
 //         };
 //     });
 // };
-// console.log(saveToDb("srinjoy"));
+// let request=saveToDb("srinjoy");//request->promise object
+// request.then(()=>{
+//     console.log("promise is resolved");
+// })
+// .catch(()=>{
+//     console.log("promise not resolved");
+// })

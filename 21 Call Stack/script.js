@@ -71,17 +71,21 @@
 //     });
 // };
 // saveToDb("srinjoy")
-// .then(()=>{
+// .then((result)=>{
 //     console.log("Data 1 saved");
+//     console.log("Result of promise:",result);
 //     return saveToDb("arya");
 // })
-// .then(()=>{
+// .then((result)=>{
 //     console.log("Data 2 saved");
+//     console.log("Result of promise:",result);
 //     return saveToDb("xyz");
 // })
-// .then(()=>{
+// .then((result)=>{
 //     console.log("Data 3 saved");
+//     console.log("Result of promise:",result);
 // })
-// .catch(()=>{
+// .catch((error)=>{
 //     console.log("promise not resolved");
+//     console.log("Result of promise:",error);
 // })

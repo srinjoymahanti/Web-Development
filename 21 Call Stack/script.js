@@ -89,3 +89,30 @@
 //     console.log("promise not resolved");
 //     console.log("Result of promise:",error);
 // })
+
+
+// let h1=document.querySelector("h1");
+// function colorChange(color,delay){
+//     return new Promise((resolve,reject) =>{
+//         setTimeout(()=>{
+//             h1.style.color=color;
+//             resolve("Color Changed!");
+//         },delay);
+//     }) 
+// };
+// colorChange("red",1000)
+// .then(()=>{
+//     console.log("Color chnaged to Red");
+//     return colorChange("blue",1000);
+// })
+// .then(()=>{
+//     console.log("Color chnaged to Blue");
+//     return colorChange("green",1000);
+// })
+// .then(()=>{
+//     console.log("Color chnaged to Green");
+//     return colorChange("orange",1000);
+// })
+// .then(()=>{
+//     console.log("Color chnaged to Orange");
+// })

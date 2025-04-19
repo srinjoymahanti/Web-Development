@@ -116,3 +116,17 @@
 // .then(()=>{
 //     console.log("Color chnaged to Orange");
 // })
+
+
+// async function greet(){//It is use to returns a promise
+//     throw "weak connection";//To print the error
+//     return "hello";
+// };
+// greet()
+// .then((result)=>{
+//     console.log("Promise is resolved");
+//     console.log("result is:",result);
+// })
+// .catch((err)=>{
+//     console.log("Promise rejected with error:",err);
+// })

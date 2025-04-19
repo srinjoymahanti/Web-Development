@@ -58,3 +58,30 @@
 // .catch(()=>{
 //     console.log("promise not resolved");
 // })
+
+
+// function saveToDb(data){
+//     return new Promise((resolve,reject)=>{
+//         let internetSpeed=Math.floor(Math.random()*10)+1;
+//         if(internetSpeed > 4){
+//             resolve("success:data is saved");
+//         }else{
+//             reject("failure:weak connection");
+//         };
+//     });
+// };
+// saveToDb("srinjoy")
+// .then(()=>{
+//     console.log("Data 1 saved");
+//     return saveToDb("arya");
+// })
+// .then(()=>{
+//     console.log("Data 2 saved");
+//     return saveToDb("xyz");
+// })
+// .then(()=>{
+//     console.log("Data 3 saved");
+// })
+// .catch(()=>{
+//     console.log("promise not resolved");
+// })

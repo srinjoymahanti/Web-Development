@@ -167,3 +167,34 @@
 //     await colorChange("green",1000);
 //     colorChange("orange",1000);
 // }
+
+
+// let h1=document.querySelector("h1");
+// function colorChange(color,delay){
+//     return new Promise((resolve,reject) =>{
+//         setTimeout(()=>{
+//             let num=Math.ceil(Math.random()*10);
+//             if(num>3){
+//                 reject("Promise Rejected");
+//             };
+//             h1.style.color=color;
+//             console.log(`Color changed to ${color}`);
+//             resolve("Color Changed!");
+//         },delay);
+//     }) 
+// };
+// async function demo() {
+//     try{
+//         await colorChange("red",1000);
+//         await colorChange("blue",1000);
+//         await colorChange("yellow",1000);
+//         await colorChange("green",1000);
+//         await colorChange("orange",1000);
+//     }catch(err){
+//         console.log("Error caught");
+//         console.log(err);
+//     }
+//     let a=5;
+//     console.log(a);
+//     console.log("New number=",a+3);
+// }

@@ -130,3 +130,21 @@
 // .catch((err)=>{
 //     console.log("Promise rejected with error:",err);
 // })
+
+
+// function getNum(){
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             let num=Math.ceil(Math.random()*10);
+//             console.log(num);
+//             resolve();
+//         },1000);
+//     })
+// }
+// async function demo(){
+//     await getNum();
+//     await getNum();
+//     await getNum();
+//     await getNum();
+//     getNum();
+// }

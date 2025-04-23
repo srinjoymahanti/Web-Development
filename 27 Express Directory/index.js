@@ -25,3 +25,7 @@ app.listen(port, () => {
 // app.use((req,res)=>{
 //     res.send("Not found");
 // })
+
+app.post("/",(req,res)=>{
+    res.send("You send a post request");
+})

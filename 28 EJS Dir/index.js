@@ -18,3 +18,15 @@ app.get("/rollDice", (req, res) => {
     let diceVal= Math.ceil(Math.random()*6);
     res.render("rollDice.ejs",{num:diceVal});
 });
+app.get("/users/:name",(req,res)=>{
+    const followers=["adam","bob","steve","john"];
+    let {username}=req.params;
+    res.render("users.ejs",{username,followers});
+})
+app.get("/instagram/:username",(req,res)=>{
+    let {username}=req.params;
+    const instaData=require("./data.json");
+    const data=instaData[username];
+    console.log(data);
+    res.render("instagram.ejs",{data});
+})

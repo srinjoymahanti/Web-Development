@@ -4,7 +4,9 @@ const path=require("path");
 
 const port=8080;
 
-app.set("views",path.join(__dirname,"/views"));//it helps to find the views file from any directory
+// app.use(express.static(path.join(__dirname,"/public/js")));
+app.use(express.static(path.join(__dirname,"/public")));
+app.set("views",path.join(__dirname,"/views"));//it helps to find the "views" file from any directory
 app.set("view engine","ejs");
 
 app.listen(port,()=>{

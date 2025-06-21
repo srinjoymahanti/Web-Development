@@ -1,3 +1,12 @@
+// let arr1=[1,2,3];
+// let arr2=[1,2,3];
+// arr1.sayHello=()=>{
+//     console.log("Hello,I am arr");
+// };
+
+// arr1.__proto__.push=(n)=>{console.log("Hello pushing",n);}//chnaging the functionality of push 
+// arr2.__proto__.pop=()=>{console.log("Thanks for popping");}//changing the prototype
+
 // //Factory functions
 // function Personmaker(name,age){
 //     const person={

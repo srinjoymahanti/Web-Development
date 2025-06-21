@@ -44,3 +44,27 @@
 // }
 // let p1=new Person("adam",25);
 // let p2=new Person("eve",25);
+
+
+//Inheritance
+class Person{//parent class
+    constructor(name,age){
+        this.name=name;
+        this.age=age;
+    }
+    talk(){
+        console.log(`hi i am ${this.name}`);
+    }
+}
+class Student extends Person{//child class taking properties from parent class
+    constructor(name,age,marks){
+        super(name,age);//parent class constructor is being called
+        this.marks=marks;
+    }
+}
+class Teacher extends Person{
+    constructor(name,age,subject){
+        super(name,age);//parent class constructor is being called
+        this.subject=subject;
+    }
+}

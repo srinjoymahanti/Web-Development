@@ -2,6 +2,7 @@ const express=require("express");
 const app=express();
 const port=8080;
 const path=require("path");//to use the "public" and "views" folder
+const {v4:uuidv4}=require('uuid');
 
 app.listen(port,()=>{
     console.log(`listening to port ${port}`);
@@ -16,12 +17,12 @@ app.use(express.static(path.join(__dirname,"public")));
 
 let posts=[
     {
-        id:"1a",
+        id:uuidv4(),
         username:"srinjoy",
         content:"i love conding"
     },
     {
-        id:"2b",
+        id:uuidv4(),
         username:"arya",
         content:"coading is life"
     }
@@ -35,7 +36,8 @@ app.get("/posts/new",(req,res)=>{
 })
 app.post("/posts",(req,res)=>{
     let{username,content}=req.body;
-    posts.push({username,content});
+    let id=uuidv4();
+    posts.push({id,username,content});
     res.redirect("/posts");
 })
 app.get("/posts/:id",(req,res)=>{

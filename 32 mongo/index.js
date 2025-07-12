@@ -67,8 +67,16 @@ const User=mongoose.model("User",userSchema);
 //     })
 //     .catch((err)=>{
 //         console.log(err);
+//     })//     
+// User.findByIdAndUpdate("6870936f5820c23d061de05f",{age:78},{new:true})
+//     .then((res)=>{
+//         console.log(res);
 //     })
-User.findByIdAndUpdate("6870936f5820c23d061de05f",{age:78},{new:true})
+//     .catch((err)=>{
+//         console.log(err);
+//     })
+
+User.deleteOne({name:"eve"})
     .then((res)=>{
         console.log(res);
     })

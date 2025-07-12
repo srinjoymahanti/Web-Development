@@ -60,3 +60,18 @@ const User=mongoose.model("User",userSchema);
 //     .catch((err)=>{
 //         console.log(err);
 //     })
+
+// User.findOneAndUpdate({name:"bruce"},{age:32},{new:true})//Set new to true to print the updated value instantly
+//     .then((res)=>{
+//         console.log(res);
+//     })
+//     .catch((err)=>{
+//         console.log(err);
+//     })
+User.findByIdAndUpdate("6870936f5820c23d061de05f",{age:78},{new:true})
+    .then((res)=>{
+        console.log(res);
+    })
+    .catch((err)=>{
+        console.log(err);
+    })

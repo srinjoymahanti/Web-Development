@@ -45,10 +45,18 @@ const User=mongoose.model("User",userSchema);
 //     console.log(res);
 // });
 
-User.findById("6870936f5820c23d061de05f")
-    .then((res)=>{
-        console.log(res);
-    })
-    .catch((err)=>{
-        console.log(err);
-    });
+// User.findById("6870936f5820c23d061de05f")
+//     .then((res)=>{
+//         console.log(res);
+//     })
+//     .catch((err)=>{
+//         console.log(err);
+//     });
+
+// User.updateMany({age:{$gt:40}},{age:56})
+//     .then((res)=>{
+//         console.log(res);
+//     })
+//     .catch((err)=>{
+//         console.log(err);
+//     })

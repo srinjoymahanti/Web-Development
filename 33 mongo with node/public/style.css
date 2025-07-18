@@ -1,0 +1,22 @@
+body{
+    margin: 20px;
+}
+.chat{
+    background-color: rgb(173, 244, 249) ;
+    padding: 15px;
+    border-radius: 15px;
+    display: inline-block;
+}
+.msg{
+    background-color: rgb(188, 251, 157) ;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+.edit{
+    background-color: rgb(0, 255, 195);
+    border-radius: 8px;
+}
+.delete{
+    background-color: rgb(249, 89, 89);
+    border-radius: 10px;
+}

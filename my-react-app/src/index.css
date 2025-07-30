@@ -113,3 +113,20 @@ button:focus-visible {
 .student p{
   margin: 0;
 }
+
+
+.welcome{
+  font-size: 2.5em;
+  background-color: rgb(47, 222, 163);
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+.login{
+  font-size: 2.5em;
+  background-color: antiquewhite;
+  color:rgb(249, 61, 133);
+  padding: 20px;
+  border-radius: 8px;
+}

@@ -8,7 +8,7 @@ function Student(props) {
       <p>Student: {props.isStudent ? "Yes" : "No"}</p>
     </div>
   );
-}
+}    
 
 Student.propTypes={
     name:PropTypes.string,

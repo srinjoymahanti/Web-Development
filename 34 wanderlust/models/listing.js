@@ -9,6 +9,7 @@ const listingSchema=new Schema({
     description:String,
     image:{
         type:String,
+        default:"https://images.unsplash.com/photo-1555396273-1146e2d2a49b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fGNvY29udXQlMjB0cmVlJTIwYXQlMjBzdW5zZXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
         set:(v)=>v===""?"https://images.unsplash.com/photo-1555396273-1146e2d2a49b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fGNvY29udXQlMjB0cmVlJTIwYXQlMjBzdW5zZXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600":v,
     },
     price:Number,
@@ -17,4 +18,4 @@ const listingSchema=new Schema({
 })
 
 const Listing=mongoose.model("Listing",listingSchema);
-models.export=Listing;
+module.exports=Listing;

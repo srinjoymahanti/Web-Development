@@ -1,1 +1,1 @@
-console.log(__dirname);
+console.log(__dirname);//It will print the current directory path

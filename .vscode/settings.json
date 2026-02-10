@@ -1,4 +1,4 @@
 {
     "git.enabled": true,
-    "editor.inlineSuggest.enabled": false
+    "editor.inlineSuggest.enabled": true
 }

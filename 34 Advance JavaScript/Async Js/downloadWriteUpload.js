@@ -1,33 +1,34 @@
 function download(url,cb){
     console.log("start downloading...",url);
     setTimeout(()=>{
-        var file = "file content from "+url;
+        let file = "file content from "+url;
         console.log("content downloaded");
         cb(file);
-    },50000)
+    },5000)
 }
 
-function write(file,cb){
-    console.log("writting in file",file);
+function write(data,fileName,cb){
+    console.log("writting in file",fileName);
     setTimeout(()=>{
-        file="changed the file of url ";
+        fileName="changed the file with "+data;
         console.log("file changed successfully");
-        cb(file);
-    },50000);
+        cb(fileName);
+    },5000);
 }
 
-function upload(file,cb){
-    console.log("starting to upload",file);
+function upload(file,url,cb){
+    console.log("starting to upload",file," in ",url);
     setTimeout(()=>{
         console.log("uploaded successfully");
-        cb(file);
-    },50000)
+        let status="true";
+        cb(status);
+    },5000)
 }
 
-download("www.google.com",function(txt){
-    write(txt,function(txt){
-        upload(txt,function(txt){
-            console.log("all tasks done for ",txt);
+download("www.google.com",(txt)=>{
+    write(1212,txt,(txt)=>{
+        upload(txt,"www.microsoft.com",(status)=>{
+            console.log("all tasks done with ",status);
         })
     })
 })
